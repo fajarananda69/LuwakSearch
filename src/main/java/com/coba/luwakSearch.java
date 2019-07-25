@@ -45,7 +45,6 @@ public class luwakSearch {
                 System.out.println(test2.getQueryId());
                 System.out.println(monitor.getQuery(test2.getQueryId()));
                 System.out.println(doc.getDocument().getField("field").stringValue());
-                System.out.println("success");
             }
         }
 
